@@ -1,15 +1,18 @@
 public class Memory{
-
+	
+	// Memory Class's Attributes
 	private int frequency;
 	private int memorySize;
 	private String supportsCuda;
 
+	// Class's constructor
 	public Memory(int frequency, int memorySize, String supportsCuda){
 		this.frequency = frequency;
 		this.memorySize = memorySize;
 		this.supportsCuda = supportsCuda;
 	}
-
+	
+	// Set and Get methods for each Attribute
 	public void setFrequency(int frequency){
 		this.frequency = frequency;
 	}
