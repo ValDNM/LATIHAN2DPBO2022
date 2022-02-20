@@ -6,7 +6,7 @@ public class Hardware extends Product{
 		
 		// Class's constructor
 		public Hardware(int frequency, int memorySize, String supportsCuda, int price, String idProduct, String brand, String model){
-			// Using Product class as a super in which are also the subclass of memory
+			// Using Product class as a super in which are the subclass of memory
 			super(frequency, memorySize, supportsCuda, price, idProduct);
 			this.brand = brand;
 			this.model = model;
